@@ -1,0 +1,296 @@
+body{
+    width: 100%;
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 auto;
+       
+}
+
+
+h1 h2 h4{
+    font-family: 'Merienda', cursive;
+    
+    
+}
+
+video{
+    margin: 3% 10%;
+    
+}
+h2, p{
+    text-align: center;
+    margin: 0;
+}
+main{
+    margin: 50px;
+}
+
+
+/*Menu */
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: inset 1px 35px 20px -30px;
+    
+}
+
+
+ #header{
+    display: flex; 
+ }
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 10%;
+}
+
+.fa-star{
+    color: #950000;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.fa-star-of-life{
+    color: #950000;
+    font-size: 9px;
+    padding: 5px;
+}
+
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color:#ebe3db;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    background-color: #4c4343;
+    color: #fff;
+}
+
+/*formulaire*/
+
+#contenair {
+    background-color: #ebe3db;
+    margin: 63px;
+    padding: 28px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+
+input{
+    width: 350px;
+}
+
+textarea{
+    width: 220%;
+    
+} 
+
+/*carte*/
+
+iframe {
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+
+
+/*footer*/
+
+.case{
+    background-color: #4c4343;
+    text-align: center;
+    color:#fff;
+     /* background-color: #333; */
+     transition: all 2s ease-out;
+}
+
+.case a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.case:hover,
+.case:focus {
+
+  background-color: #950000;
+}
+
+footer{
+    background-image: url('footer-bg.jpg');
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+}
+
+#footer h4 {
+    border-bottom: 2px dotted rgb(236, 229, 229);
+    padding: 8px 37px;
+}
+
+
+.reseaux{
+    padding: 21px;
+    font-size: 20px;
+}
+
+
+/* Media pour phone*/
+
+@media screen and (max-width: 380px){
+    body {
+        
+        font-family: 'Athiti', sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0 auto;
+        padding: 2px;
+    }
+
+    nav {
+        background-color: #ebe3db;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    nav a {
+    border: 1px solid #4c4343;
+    border-top: #4c4343;
+    width: 100%;
+    text-align: center;
+    }
+    
+
+    .fa-star {
+        color: #950000;
+        font-size: 7px;
+        padding: 6px;
+    }
+
+    .fa-star-of-life {
+        color: #950000;
+        font-size: 4px;
+        padding: 1px;
+    }
+
+    textarea {
+        width: 112%;
+        height: 57px;
+    }
+
+    input {
+        width: 90px;
+    }
+
+
+
+    #footer {
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        text-align: center;
+        flex-direction: column;
+        margin: 28px;
+    }
+    .reseaux {
+        padding: 21px;
+        font-size: 13px;
+    }
+
+   
+}
+
+
+/* Media pour tablette*/
+
+@media screen and (max-width: 780px){
+    body {
+            
+        font-family: 'Athiti', sans-serif;
+        font-size: 9px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #logo {
+        width: 24%;
+    
+    }
+    
+    nav {
+        background-color: #ebe3db;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+    
+    nav a {
+        color: black;
+        text-decoration: none;
+        background-color: #ebe3db;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    #contenair {
+        background-color: #ebe3db;
+        margin: 0 auto;
+        padding: 28px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    
+    input {
+        width: 237px;
+    }
+
+    textarea {
+        width: 150%;
+    }
+}

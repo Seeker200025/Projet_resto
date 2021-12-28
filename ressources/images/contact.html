@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    <link href="contact.css" rel="stylesheet"/>
+    <link rel="icon" href="favicon.png"/>
+    <title>Freshly Restaurant</title>
+</head>
+<body>
+   
+    <header>
+        <div class='header'>
+            <div id="header"> <img id="logo" src="logo.png"/><h1><i class="fas fa-star"></i>Freshly Restaurant<i class="fas fa-star"></i></h1></div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href='about.html'>About</a>
+                <a href='menus.html'>Menus</a>
+                <a href='#'>Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2><i class="fas fa-star"></i>Contact us<i class="fas fa-star"></i></h2>
+        <p>If your want to make a reservation, please complete this form.<br>Fields with<i class="fas fa-star-of-life"></i>are required.</p> 
+
+        <div id="contenair">
+            <div id="reservation">
+                <div >
+                    <h3>Reservation</h3>
+                    <form>
+                        <label for="start"><i class="fas fa-star-of-life"></i>Date</label><br>
+                        <input type="date" id="start" name="trip-start" value="jj/mm/aaaa"><br>
+                        
+                        <label for="appt"><i class="fas fa-star-of-life"></i>Time</label><br>
+                        <input type="time" id="appt" name="appt" ><br>
+
+                        <label for="tentacles"><i class="fas fa-star-of-life"></i>Number of guests</label><br>
+                        <input type="number" id="tentacles" name="tentacles" min="10" max="100"><br>
+                    </form>
+                
+
+                </div>
+               
+            <div>
+                <h3>Further request</h3>
+                <form>
+                    <label for="avis"></label><br />
+                    <textarea name="avis" id="avs" rows="10" cols="50"></textarea> 
+                </form>
+                <div class='case'></a></div>
+
+            </div>
+           
+
+        </div>
+        
+       
+
+
+        <div>
+            <h3>Details</h3>
+            <form>
+                <label for="name"><i class="fas fa-star-of-life"></i>Name</label><br>
+                <input type="text" name="name" id="name" required><br>
+                
+                <label for="email"><i class="fas fa-star-of-life"></i>Email</label><br>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="phone"><i class="fas fa-star-of-life"></i>Telephone</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            </form>
+            
+        </div>
+
+    </div>
+    <div>
+        
+        <h2><i class="fas fa-star"></i>Our location<i class="fas fa-star"></i></h2>
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0303421020508%2C40.69612766939108%2C-73.96459579467775%2C40.73321007823575&amp;layer=transportmap" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/40.7147/-73.9975&amp;layers=T"></a></small>
+    </div>
+    
+
+    
+
+
+    </main>
+
+
+    <footer>
+        <div id='footer'> 
+            <div>
+                <h4>Opening hours</h4>
+                <p>Monday: Closed <br>Tue-Wed : 9am - 10pm<br>Thu-Fri : 9am - 10pm<br>Sat-Sun : 5pm - 10pm</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                
+                <p>13 Christopher Street <br>New York,<br>NY 10014-3543</p>
+                <p>+01 2000 800 9999</p>
+            
+            </div>
+            <div>
+                <h4>Social networks</h4>
+                <i class="fab fa-facebook-f reseaux"></i>
+                <i class="fab fa-instagram reseaux"></i>
+                <i class="fab fa-pinterest-p reseaux"></i>
+
+            </div>
+        </div>
+    </footer>
+  
+    
+</body>
+</html>

@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    background-color: #faf8f8; 
+       
+}
+
+h1 h2 h4{
+    font-family: 'Merienda One', cursive;
+    
+    
+}
+
+video{
+    margin: 3% 10%;
+    
+}
+h2{
+    text-align: center;
+    margin: 50px 0 50px;
+}
+main{
+    margin: 50px;
+}
+
+
+/*Menu */
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: inset 1px 25px 20px -30px
+    
+}
+
+
+ #header{
+    display: flex; 
+ }
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 10%;
+}
+
+.fa-star{
+    color: #950000;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color:#ebe3db;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    background-color: #4c4343;
+    color: #fff;
+}
+
+/*section sur les 4 photos du restos*/
+
+#dining {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;; 
+    background-color: #ebe3db;
+    padding: 12px;
+    
+ 
+}
+#dining img {
+	width: 100%;
+
+}
+
+#dining p{
+    margin: 0;
+    
+    text-align: center;
+}
+
+/*footer*/
+
+.case{
+    background-color: #4c4343;
+    text-align: center;
+    color:#fff;
+}
+
+.case a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+footer{
+    background-image: url('footer-bg.jpg');
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+}
+
+#footer h4 {
+    border-bottom: 2px dotted rgb(236, 229, 229);
+    padding: 8px 37px;
+}
+
+
+.reseaux{
+    padding: 21px;
+    font-size: 20px;
+}
+
